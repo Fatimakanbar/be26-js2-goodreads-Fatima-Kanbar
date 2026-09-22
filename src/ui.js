@@ -24,7 +24,7 @@ function createBookElement(book) {
 
   li.innerHTML = `
     <h3>${book.title}</h3>
-    <p>${book.author}</p>s
+    <p>${book.author}</p>
     <label>
       <input type="checkbox" class="read-checkbox" ${book.isRead ? "checked" : ""}>
       Läst
