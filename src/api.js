@@ -19,7 +19,7 @@ export async function fetchBooks() {
 
 
 
-//! lägg till en ny book
+
 export async function addBookToDb(bookData) {
   const response = await fetch(`${BASE_URL}/books.json`, {
     method: "POST",
